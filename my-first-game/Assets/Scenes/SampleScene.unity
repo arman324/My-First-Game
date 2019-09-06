@@ -123,6 +123,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone01
       objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: f2d434c16496e42eba6b78e0a9e792f8, type: 3}
+      propertyPath: m_TagString
+      value: stone
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: f2d434c16496e42eba6b78e0a9e792f8, type: 3}
+      propertyPath: m_TagString
+      value: stone
+      objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: f2d434c16496e42eba6b78e0a9e792f8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.7
@@ -362,6 +370,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone03
       objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 3e8097bf622c7401b941aa0e7cf19a06, type: 3}
+      propertyPath: m_TagString
+      value: stone
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 3e8097bf622c7401b941aa0e7cf19a06, type: 3}
+      propertyPath: m_TagString
+      value: stone
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 3e8097bf622c7401b941aa0e7cf19a06, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.46
@@ -462,6 +478,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone02
       objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 3e986882b19a74d3d8bdb0f6b2e932c7, type: 3}
+      propertyPath: m_TagString
+      value: stone
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 3e986882b19a74d3d8bdb0f6b2e932c7, type: 3}
+      propertyPath: m_TagString
+      value: stone
+      objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 3e986882b19a74d3d8bdb0f6b2e932c7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.380863
@@ -557,6 +581,7 @@ GameObject:
   - component: {fileID: 1492001308}
   - component: {fileID: 1492001312}
   - component: {fileID: 1492001313}
+  - component: {fileID: 1492001314}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -667,6 +692,20 @@ MonoBehaviour:
   rb: {fileID: 1492001312}
   speed: 100
   forwardForce: 70
+--- !u!114 &1492001314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492001307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 947911f9f91d8460789d1e277e2cd6f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movement: {fileID: 1492001313}
+  rb: {fileID: 1492001312}
 --- !u!1 &1659969513
 GameObject:
   m_ObjectHideFlags: 0
